@@ -1,0 +1,29 @@
+{
+  "name": "mirror-example",
+  "version": "0.1.0",
+  "description": "The best module ever.",
+  "main": "index",
+  "dependencies": {
+    "gulp": "~3.8.11",
+    "gulp-concat": "~2.5.0",
+    "gulp-mirror": "*",
+    "gulp-rename": "~1.2.0"
+  },
+  "devDependencies": {
+    "coveralls": "2",
+    "istanbul": "0",
+    "jshint": "*",
+    "mocha": "1",
+    "should": "4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/popomore/mirror-example"
+  },
+  "homepage": "https://github.com/popomore/mirror-example",
+  "author": "popomore <sakura9515@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "make test"
+  }
+}
